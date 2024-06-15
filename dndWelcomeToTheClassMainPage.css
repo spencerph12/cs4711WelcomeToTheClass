@@ -1,0 +1,53 @@
+.link-box {
+    height: 16vh;
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    border-radius: 25px;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden; /* Ensure the image does not overflow the box */
+    position: relative; /* Enable positioning of image inside the box */
+
+}
+
+.bottom-margin-logo {
+    margin-bottom: 3em;
+}
+
+.bottom-margin-class {
+    margin-bottom: 1em;
+}
+
+.link-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover; /* Ensure the image covers the entire box */
+    transition: transform 0.3s; /* Smooth transition for the image */
+    position: center; /* Position image absolutely inside the box */
+    top: 0;
+    left: 0;
+    transition: transform 0.3s; /* Smooth transition for the image */
+}
+
+.link-box:hover img {
+    transform: scale(1.1); /* Enlarge the image slightly on hover */
+}
+
+.background {
+    background-color: #cccccc;
+}
+
+@media screen and (max-width: 900px) {
+    .link-box {
+        height: auto;
+        width: auto;
+    }
+}
