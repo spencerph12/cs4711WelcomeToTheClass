@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+        margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar img {
+    height: 40px;
+}
+
+.container {
+    display: flex;
+}
+
+.description, .image {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.description {
+    background-color: #f4f4f4;
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+.background {
+    background-color: #cccccc;
+}
